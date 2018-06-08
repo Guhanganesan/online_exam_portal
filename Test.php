@@ -19,10 +19,10 @@ a{color:white;font-weight:bold;}
  
  
      $host="localhost";
-     $user="id3242175_guha_5599";
-     $pass="guha0804";
+     $user="";
+     $pass="";
      
-     $con=mysqli_connect($host,$user,$pass, "id3242175_guha");
+     $con=mysqli_connect($host,$user,$pass, "");
  
 
  $email=$_POST['email'];
