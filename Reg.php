@@ -65,9 +65,9 @@
 <?php   if(isset($_POST['submit']))		
 		{
 		$dbhost ="localhost";
-	    $dbuser="id3242175_guha_5599";
-	    $dbpass="guha0804";
-	    $conn = mysqli_connect( $dbhost, $dbuser, $dbpass, "id3242175_guha");
+	    $dbuser="";
+	    $dbpass="";
+	    $conn = mysqli_connect( $dbhost, $dbuser, $dbpass, "");
 	   // mysql_select_db("payilagam");
 		
         $name=$_POST['name']; 		$fname=$_POST['fname'];		$gender=$_POST['gender']; 
